@@ -11,7 +11,7 @@ function getTimes(lat, lon) {
     }
 
     // Construct the endpoint URL below
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=054e98325881d1f661a7717809810511`;
+    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=Api key here`;
     
     xhr.open('GET', url);
     xhr.send();
