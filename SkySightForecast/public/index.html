@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js" defer></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" defer></script>
+  <script type="application/javascript" src="/scriptweather.js" defer></script>
+
+</head>
+<body>
+<div class="jumbotron text-center">
+    <h1>SkySightForecast</h1>
+    <p>Current conditions</p> 
+</div>
+    <div class="container">
+        <label for="weathermode">Choose a location:</label>
+        <select name="weathermode" id="weathermode">
+            <option value="" selected disabled hidden>Choose here</option>
+            <option value="newyork">New York</option>
+            <option value="kingsport">Kingsport</option>
+            <option value="chicago">Chicago</option>
+            <option value="losangeles">Los Angeles</option>
+        </select>
+        <div id="weatherfor">
+        </div>
+    </div>
+</body>
+</html>

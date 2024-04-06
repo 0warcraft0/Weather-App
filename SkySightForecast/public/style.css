@@ -1,0 +1,37 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Use a nicer font */
+    background-color: #f4f4f4; /* Light grey background */
+}
+
+.jumbotron {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+}
+
+.container {
+    max-width: 1200px; /* Max width for large devices */
+    margin: auto;
+    padding: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.weather-output {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Update color and font size for .temp, .description, and .wind classes similarly */
